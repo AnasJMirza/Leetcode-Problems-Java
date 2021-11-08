@@ -4,7 +4,7 @@ package com.anas;
 
 import java.util.Scanner;
 
-public class Q3 {
+public class Q03 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
