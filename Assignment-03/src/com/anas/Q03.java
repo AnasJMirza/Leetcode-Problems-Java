@@ -12,7 +12,7 @@ public class Q03 {
         int age = in.nextInt();
 
         boolean result = eligibility(age);
-        System.out.println(result);
+        System.out.println("True for even / False for odd = " + result);
     }
 
     static boolean eligibility(int age) {
