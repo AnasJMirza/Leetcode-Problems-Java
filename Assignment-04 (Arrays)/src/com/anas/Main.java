@@ -2,59 +2,144 @@
 
 package com.anas;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        // syntax (One dimensional arrays)
 
-//        System.out.print("Enter the size of the array : ");
-//        int arraySize = in.nextInt();
+//      One dimensional Arrays
+
+//        String[] arrName = new String[5];
 //
-//        int[] arr = new int[arraySize];
-//
-//        System.out.print("Enter elements to array : ");
-//
-//        for (int i = 0; i < arraySize; i++){
-//            arr[i] = in.nextInt();
+//        for (int i = 0; i < arrName.length; i++) {
+//            arrName[i] = in.nextLine();
 //        }
 //
-//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arrName));
+//        change(arrName);
+//        System.out.println(Arrays.toString(arrName));
 
-        // syntax (Two dimensional arrays)
 
-//        System.out.print("Enter the values of the arrays : ");
+//        Two Dimensional Arrays
 
 //        int[][] arr = new int[3][3];
 //
-//        for (int i = 0; i < 3; i++){
+//        for (int row = 0; row < arr.length; row++) {
 //
-//            for (int j = 0; j < 3; j++){
-//                arr[i][j] = in.nextInt();
+//            for (int col = 0; col < arr[row].length; col++) {
+//                arr[row][col] = in.nextInt();
 //            }
+//        }
+
+
+//        for (int row = 0; row < arr.length; row++) {
+//
+//            for (int col = 0; col < arr[row].length; col++) {
+//                System.out.print(arr[row][col] + " ");
+//            }
+//            System.out.println();
+//        }
+
+//        for (int[] ints : arr) {
+//
+//            System.out.println(Arrays.toString(ints));
 //
 //        }
+
+
+//        System.out.println(Arrays.toString(twoDArray));
+
+
+//        Array List
+
+//        ArrayList<Integer> nam = new ArrayList<Integer>(5);
 //
-//        System.out.print(Arrays.deepToString(arr));
+//        nam.add(8239);
+//        nam.add(89324);
+//        nam.add(89324);
+//        nam.add(8349);
+//        nam.add(82349);
+//        nam.add(83249);
+//
+//        System.out.println(nam);
+//
+//        nam.set(1, 4);
+//
+//        System.out.println(nam);
+//
+//        nam.add(2, 4);
+//
+//        System.out.println(nam);
+//
+//        System.out.println(nam.indexOf(89324));
+//
+//        Multi-dimensional Arraylist
 
-        int[][] arr = new int[3][3];
-        System.out.println(arr.length);
+//        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+//
+////        initilization
+//
+//        for (int i = 0; i < 3; i++) {
+//            list.add(new ArrayList<>());
+//        }
+//
+////        Adding elements
+//
+//        for (int i = 0; i < 3; i++) {
+//            System.out.print("Add 5 elements in Arrays list : ");
+//            for (int j = 0; j < 5; j++) {
+//                list.get(i).add(in.nextInt());
+//            }
+//        }
+//
+//        System.out.println(list);
+//
+//
 
+//        swaping numbers in Arrays
 
-        for (int row = 0; row < arr.length; row++){
-            for (int col = 0; col < arr[row].length; col++) {
-                arr[row][col] = in.nextInt();
-            }
-        }
+//        int[] arr = {1,2,3,4,5};
+//        swap(arr, 1, 2);
+//        System.out.println(Arrays.toString(arr));
 
+//        find Max of an array
 
-        for (int row = 0; row < arr.length; row++){
-                System.out.println(Arrays.toString(arr[row]));
-        }
+        int[] arr = {1,2,3,4,5};
+        System.out.println(max(arr));
+        reverseArr(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 
+    static void reverseArr(int[] arr) {
+        int s = 0;
+        int e = arr.length - 1;
 
+        while (s < e){
+            swap(arr, s, e);
+            s = s + 1;
+            e = e - 1;
+        }
+    }
+
+    static int max(int[] arr){
+        int max = arr[0];
+        for (int i = 0; i < arr.length; i++){
+            if (max < arr[i]){
+                max = arr[i];
+            }
+        }
+
+        return max;
+    }
+
+    static void swap(int[] arr, int i1, int i2){
+        int temp = arr[i1];
+        arr[i1] = arr[i2];
+        arr[i2] = temp;
+    }
 }

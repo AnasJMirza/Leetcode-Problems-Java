@@ -1,6 +1,6 @@
 package com.anas;
 
-import java.lang.reflect.Array;
+
 import java.util.Scanner;
 
 public class Main {
@@ -8,16 +8,23 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-	    int[] arr = new int[5];
+        System.out.println("Enter a number : ");
+        int numOne = in.nextInt();
+        System.out.println("Enter a number : ");
+        int numTwo = in.nextInt();
 
-        System.out.print("Enter elements : ");
-        for (int i = 0; i < 5; i++){
-            arr[i] = in.nextInt();
-        }
+        System.out.println(sum(numOne, numTwo));
 
-            System.out.println(arr.toString(arr));
 
     }
+
+
+    static int sum(int num1, int num2){
+
+        int result = num1 + num2;
+        return result;
+    }
+
 
 
 }
