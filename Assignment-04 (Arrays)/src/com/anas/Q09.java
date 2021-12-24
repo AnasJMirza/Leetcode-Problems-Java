@@ -14,20 +14,22 @@ public class Q09 {
         int[] nums = {0,1,2,3,4};
         int[] index = {0,1,2,2,1};
 
-        ArrayList<Integer> a = createTargetArray(nums, index);
-        System.out.println(a);
+        int[] a = createTargetArray(nums, index);
+        System.out.println(Arrays.toString(a));
     }
 
 
     static int[] createTargetArray(int[] nums, int[] index) {
         ArrayList<Integer> list = new ArrayList<Integer>(nums.length);
+        int[] targetArray = new int[nums.length];
 
         for (int i = 0; i < nums.length; i++) {
             list.add(index[i], nums[i]);
         }
 
-
-        Object[] objects = list.toArray();
-        return objects;
+        for (int i = 0; i < nums.length; i++) {
+            targetArray[i] = list.get(i);
+        }
+        return targetArray;
     }
 }
