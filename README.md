@@ -4,7 +4,7 @@
 - All topics will contain problems from LeetCode Easy to Hard.
 <!-- - Complete custom implementation of all Data Structures and Algorithms. -->
   
-## Lectures
+## Syllabus
 <!-- - [Complete Git & GitHub Course](https://youtu.be/apGV9Kg7ics) -->
 - [Introduction to Programming](https://youtu.be/wn49bJOYAZM) ---> (DONE)
     - [Types of languages](https://youtu.be/wn49bJOYAZM?t=171) 
