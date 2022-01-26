@@ -6,17 +6,17 @@
   
 ## Syllabus
 <!-- - [Complete Git & GitHub Course](https://youtu.be/apGV9Kg7ics) -->
-- [Introduction to Programming](https://youtu.be/wn49bJOYAZM) ---> (DONE)
+- [Introduction to Programming](https://youtu.be/wn49bJOYAZM) ---> ✅
     - [Types of languages](https://youtu.be/wn49bJOYAZM?t=171) 
     - [Memory management](https://youtu.be/wn49bJOYAZM?t=1488)
-- [Flow of the program](https://youtu.be/lhELGQAV4gg) ---> (DONE)
+- [Flow of the program](https://youtu.be/lhELGQAV4gg) ---> ✅
     - [Flowcharts](https://youtu.be/lhELGQAV4gg)
     - [Pseudocode](https://youtu.be/lhELGQAV4gg?t=715)
-- [Introduction to Java](https://youtu.be/4EP8YzcN0hQ) ---> (DONE)
+- [Introduction to Java](https://youtu.be/4EP8YzcN0hQ) ---> ✅
     - [Introduction](https://youtu.be/4EP8YzcN0hQ)
     - [How it works](https://youtu.be/4EP8YzcN0hQ?t=93)
     - [Setup Installation](https://youtu.be/4EP8YzcN0hQ?t=1486)
-- [First Java Program](https://youtu.be/TAtrPoaJ7gc)  ---> (DONE)
+- [First Java Program](https://youtu.be/TAtrPoaJ7gc)  ---> ✅
     - [Input and Output in Java](https://youtu.be/TAtrPoaJ7gc?t=2086)
     - [Conditionals & Loops in Java](https://youtu.be/ldYLYRNaucM?t=88)
         - [if-else](https://youtu.be/ldYLYRNaucM?t=88)
@@ -24,13 +24,13 @@
         - [Switch statements](https://youtu.be/mA23x39DjbI)
     - [Data-types](https://youtu.be/TAtrPoaJ7gc?t=2800)
     - [Coding best practices](https://youtu.be/waGfV-IoOt8)
-- [Functions](https://youtu.be/vvanI8NRlSI) ---> (DONE)
+- [Functions](https://youtu.be/vvanI8NRlSI) ---> ✅
     - [Introduction](https://youtu.be/vvanI8NRlSI)
     - [Scoping in Java](https://youtu.be/vvanI8NRlSI?t=2801)
     - [Shadowing](https://youtu.be/vvanI8NRlSI?t=3584)
     - [Variable Length Arguments](https://youtu.be/vvanI8NRlSI?t=4013)
     - [Overloading](https://youtu.be/vvanI8NRlSI?t=4327)
-- [Arrays](https://youtu.be/n60Dn0UsbEk) ---> (CONTINUING)
+- [Arrays](https://youtu.be/n60Dn0UsbEk) ---> ⏰
     - [Introduction](https://youtu.be/n60Dn0UsbEk)
     - [Memory management](https://youtu.be/n60Dn0UsbEk?t=632)
     - [Input and Output](https://youtu.be/n60Dn0UsbEk?t=1675)
