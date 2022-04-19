@@ -1,5 +1,6 @@
 package com.anas;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -17,6 +18,10 @@ public class Main {
         }
 
         System.out.print("Array : " + Arrays.toString(rollNo));
+
+        ArrayList<Integer> something =  new ArrayList<Integer>(5);
+        something.add(6);
+        System.out.println(something);
 
     }
 }
