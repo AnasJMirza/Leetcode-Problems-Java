@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1209cb62-9caa-40da-b615-e664a3cdd7f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays/com/anas/Q09.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays/com/anas/Q09.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anas/Q08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anas/Q08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anas/Q09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anas/Q09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/anas/Q10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anas/Q10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/anas/Q11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,20 +85,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Q10">
-    <configuration name="Q06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anas.Q06" />
-      <module name="arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q11">
     <configuration name="Q07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anas.Q07" />
       <module name="arrays" />
@@ -156,20 +138,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anas.Q11" />
+      <module name="arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Q06" />
       <item itemvalue="Application.Q07" />
       <item itemvalue="Application.Q08" />
       <item itemvalue="Application.Q09" />
       <item itemvalue="Application.Q10" />
+      <item itemvalue="Application.Q11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q11" />
         <item itemvalue="Application.Q10" />
         <item itemvalue="Application.Q09" />
         <item itemvalue="Application.Q08" />
         <item itemvalue="Application.Q07" />
-        <item itemvalue="Application.Q06" />
       </list>
     </recent_temporary>
   </component>
