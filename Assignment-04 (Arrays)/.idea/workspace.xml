@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1209cb62-9caa-40da-b615-e664a3cdd7f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/anas/Q13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/anas/Q14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anas/Q14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,20 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Q13">
-    <configuration name="Q09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anas.Q09" />
-      <module name="arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q14">
     <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anas.Q10" />
       <module name="arrays" />
@@ -151,20 +139,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anas.Q14" />
+      <module name="arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Q09" />
       <item itemvalue="Application.Q10" />
       <item itemvalue="Application.Q11" />
       <item itemvalue="Application.Q12" />
       <item itemvalue="Application.Q13" />
+      <item itemvalue="Application.Q14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q14" />
         <item itemvalue="Application.Q13" />
         <item itemvalue="Application.Q12" />
         <item itemvalue="Application.Q11" />
         <item itemvalue="Application.Q10" />
-        <item itemvalue="Application.Q09" />
       </list>
     </recent_temporary>
   </component>
