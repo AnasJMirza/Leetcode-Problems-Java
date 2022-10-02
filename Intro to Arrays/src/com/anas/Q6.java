@@ -3,7 +3,7 @@ package com.anas;
 import java.util.ArrayList;
 import java.util.List;
 
-//
+// 1431. Kids With the Greatest Number of Candies
 public class Q6 {
     public static void main(String[] args) {
         int[] candies = {4,2,1,1,2};
