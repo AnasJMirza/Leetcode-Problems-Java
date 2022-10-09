@@ -29,15 +29,6 @@ public class Q13 {
                 image[i][j] = image[i][image.length - 1 - j];
                 image[i][image.length - 1 - j] = temp;
             }
-        }
-
-        for (int i = 0; i < image.length; i++) {
-            System.out.println(Arrays.toString(image[i]));
-        }
-
-//        Inversing the internal Arrays
-
-        for (int i = 0; i < image.length; i++) {
             for (int j = 0; j < image.length; j++) {
                 if (image[i][j] == 0){
                     image[i][j] = 1;
@@ -46,6 +37,22 @@ public class Q13 {
                 }
             }
         }
+
+        for (int i = 0; i < image.length; i++) {
+            System.out.println(Arrays.toString(image[i]));
+        }
+
+//        Inversing the internal Arrays
+
+//        for (int i = 0; i < image.length; i++) {
+//            for (int j = 0; j < image.length; j++) {
+//                if (image[i][j] == 0){
+//                    image[i][j] = 1;
+//                }else{
+//                    image[i][j] = 0;
+//                }
+//            }
+//        }
 
 
 
