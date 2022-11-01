@@ -27,8 +27,8 @@ public class Q25 {
 
 
         int[] newMat = new int[mat.length * mat[0].length];
-        int n = 0;
 
+        int n = 0;
         for(int i = 0; i < mat.length; i++){
             for(int j = 0; j < mat[i].length; j++){
                 newMat[n] = mat[i][j];
