@@ -4,9 +4,9 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {2,4,8,9,12,15,45,57,89,100};
         int[] arr2 = {100, 90,80,45,34,32,22,11,5,2,1};
-        int target = 1;
+        int target = 46;
         System.out.println(binarySearch(arr, target));
-        System.out.println(binarySearchReverse(arr2, target));
+//        System.out.println(binarySearchReverse(arr2, target));
     }
 
     static int binarySearch(int[] arr, int target){
