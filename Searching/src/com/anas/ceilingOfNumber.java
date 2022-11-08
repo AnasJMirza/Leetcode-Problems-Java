@@ -3,7 +3,7 @@ package com.anas;
 public class ceilingOfNumber {
     public static void main(String[] args) {
         int[] arr = {2,4,8,9,12,15,45,57,89,100};
-        System.out.println(ceiling(arr, 90));
+        System.out.println(ceiling(arr, 1));
     }
 
     static int ceiling(int[] arr, int target){
