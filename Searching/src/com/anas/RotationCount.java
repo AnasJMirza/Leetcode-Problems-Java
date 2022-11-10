@@ -2,7 +2,7 @@ package com.anas;
 
 public class RotationCount {
     public static void main(String[] args) {
-        int[] arr = {2, 3, 6, 12, 15, 18};
+        int[] arr = {7, 9, 11, 12, 15};
         System.out.println(rotationCount(arr));
     }
 
