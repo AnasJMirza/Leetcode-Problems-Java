@@ -15,5 +15,7 @@ public class SquareSortedArr977 {
         // sort it in non-dec order
         Arrays.sort(nums);
         return nums;
+
+        // added comments
     }
 }
